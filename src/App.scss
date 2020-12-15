@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  height: 7vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.myCon{
+  margin-top:2vh;
+  margin-bottom: 2vh;
+}
+
+.investigating{
+  background-color: #aaa69d;
+  color: #1e272e;
+  min-height: 20vh;
+}
+
+.confirmed{
+  background-color: #d63031;
+  color: #1e272e;
+  min-height: 20vh;
+}
+
+.global{
+  background-color: #1e272e;
+  color: #ffdaff;
+  min-height: 20vh;
+}
+
+.newCases{
+  background-color: #e77f67;
+  color: #1e272e;
+  min-height: 20vh;
+}
+
+.recovered{
+  background-color: #33d9b2;
+  color: #1e272e;
+  min-height: 20vh;
+}
+
+.deaths{
+  background-color: #b33939;
+  color: #1e272e;
+  min-height: 20vh;
+}
+
+.active{
+  background-color: #f7b731;
+  color: #1e272e;
+  min-height: 20vh;
+}
+
+.MyTitle{
+  font-size: 8vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-Content {
+  background-color: #16a085;
+  min-height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.App-footer {
+  background-color: #192a56;
+  min-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#g-rec{
+  color: #33d9b2;
+}
+
+#g-death{
+  color: #A70C00;
+}
+
+#g-total{
+  color: #FF5722;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
