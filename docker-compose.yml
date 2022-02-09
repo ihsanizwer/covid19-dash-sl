@@ -1,0 +1,13 @@
+---
+version:  "3.7"
+
+services:
+  covid-app:
+    tty:  true
+    image:  node:12-alpine
+    command:  sh -c "rm -rf node_module && rm -f yarn.lock && npm install node-sass@4.13 && npm install && npm start"
+    ports:
+      - 80:3000
+    working_dir:  /app
+    volumes:
+      - ./:/app
